@@ -1,0 +1,7 @@
+.bold {font-weight: bold;}
+.hidden {display: none !important;}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}

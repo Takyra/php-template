@@ -1,0 +1,41 @@
+.breadcrumbs {
+	&__list {
+
+		li {
+
+			&::after {
+				content: '';
+			}
+			&:first-child {
+
+			}
+			&:last-child {
+
+				&::after {
+					display: none;
+				}
+			}
+		}
+		a {
+
+			&:hover {
+
+			}
+		}
+		span {
+
+		}
+	}
+
+	@media (max-width: $screen-laptop) {
+
+	}
+
+	@media (max-width: $screen-tablet) {
+
+	}
+
+	@media (max-width: $screen-mobile) {
+
+	}
+}

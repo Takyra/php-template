@@ -1,0 +1,47 @@
+/* Шрифты */
+$ff: 'main font'; //Основной шрифт
+$ff-secondary: 'second font'; // Дополнительный шрифт
+$fontPath: 'fonts'; //Расположение шрифта относительно корня
+
+/* Насыщенность шрифта */
+$thin: 100;
+$hairline: 100;
+$extraLight: 200;
+$ultraLight: 200;
+$light: 300;
+$fw-normal: 400;
+$regular: 400;
+$fw-medium: 500;
+$semiBold: 600;
+$demiBold: 600;
+$bold: 700;
+$extraBold: 800;
+$ultraBold: 800;
+$fw-black: 900;
+$fw-heavy: 900;
+
+$fontWeight: $fw-normal; //Насыщенность шрифта по умолчанию
+
+/* Размеры шрифта */
+$fs-desktop: 18px;
+$fs-laptop: 16px;
+$fs-tablet: 14px;
+$fs-mobile: 14px;
+
+/* Размеры ширины экранов */
+$screen-laptop: 1366px;
+$screen-tablet: 1190px;
+$screen-mobile: 900px;
+
+/* Цвета */
+$textColor: #000; //Цвет текста
+$primary: #000; //Основной
+$secondary: #000; //Вторичный
+
+/* Placeholder */
+$placeholder-size: $fs-desktop; //Размер шрифта
+$placeholder-weight: $fontWeight; //Насыщенность шрифта
+$placeholder-color: $textColor; //Цвет шрифта
+
+/* Дополнительно */
+$if-ie: '-ms-high-contrast: none';

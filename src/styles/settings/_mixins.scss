@@ -1,0 +1,21 @@
+@mixin clearfix() {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin bgi-center($path: false) {
+	@if $path != false {background-image: url($path);}
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@mixin listReset() {
+	list-style-type: none;
+	padding: 0;
+}
+
+// transparentize($color, .3); = opacity: .7;

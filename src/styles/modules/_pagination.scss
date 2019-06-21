@@ -1,0 +1,40 @@
+.pagination {
+
+    &__list {
+
+    }
+    li {
+
+        &:hover {
+            a {
+
+            }
+        }
+        &.active {
+            a,
+            span {
+
+            }
+        }
+        &:first-child,
+        &:last-child {
+
+        };
+    }
+    a,
+    span {
+
+    }
+
+    @media (max-width: $screen-laptop) {
+
+    }
+
+    @media (max-width: $screen-tablet) {
+
+    }
+
+    @media (max-width: $screen-mobile) {
+
+    }
+}
