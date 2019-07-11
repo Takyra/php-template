@@ -1,106 +1,106 @@
 body {
-	display: flex;
-	flex-direction: column;
-	font-family: $ff;
-	font-size: $fs-desktop;
-	font-weight: $fontWeight;
-	line-height: 1.3;
-	color: $textColor;
-	min-height: 100vh;
-	margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: $ff;
+    font-size: $fs-desktop;
+    font-weight: $fontWeight;
+    line-height: 1.3;
+    color: $textColor;
+    min-height: 100vh;
+    margin: 0;
 
-	@media screen and (max-width: $screen-laptop) {font-size: $fs-laptop;}
-	@media screen and (max-width: $screen-tablet) {font-size: $fs-tablet;}
-	@media screen and (max-width: $screen-mobile) {font-size: $fs-mobile;}
+    @media screen and (max-width: $screen-laptop) {font-size: $fs-laptop;}
+    @media screen and (max-width: $screen-tablet) {font-size: $fs-tablet;}
+    @media screen and (max-width: $screen-mobile) {font-size: $fs-mobile;}
 }
 
 main {
-	flex-grow: 1;
-	overflow: hidden;
-	@media ($if-ie) {min-height: 100vh;}
+    flex-grow: 1;
+    overflow: hidden;
+    @media ($if-ie) {min-height: 100vh;}
 }
 
 select,
 input,
 textarea {
-	font-family: $ff;
-	font-size: $fs-desktop;
-	font-weight: $fontWeight;
-	color: $textColor;
-	padding: 0;
+    font-family: $ff;
+    font-size: $fs-desktop;
+    font-weight: $fontWeight;
+    color: $textColor;
+    padding: 0;
 
-	@media screen and (max-width: $screen-laptop) {font-size: $fs-laptop;}
-	@media screen and (max-width: $screen-tablet) {font-size: $fs-tablet;}
-	@media screen and (max-width: $screen-mobile) {font-size: $fs-mobile;}
+    @media screen and (max-width: $screen-laptop) {font-size: $fs-laptop;}
+    @media screen and (max-width: $screen-tablet) {font-size: $fs-tablet;}
+    @media screen and (max-width: $screen-mobile) {font-size: $fs-mobile;}
 }
 
 textarea {resize: vertical;}
 button {
-	border: none;
-	font-size: $fs-desktop;
-	background-color: transparent;
-	cursor: pointer;
-	padding: 0;
+    border: none;
+    font-size: $fs-desktop;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
 }
 
 img {max-width: 100%;}
 a {
-	color: inherit;
-	&:hover {text-decoration: none;}
+    color: inherit;
+    &:hover {text-decoration: none;}
 }
 
 ::-webkit-input-placeholder {
-	font-family: $ff;
-	font-size: $placeholder-size;
-	font-weight: $placeholder-weight;
-	color: $placeholder-color;
+    font-family: $ff;
+    font-size: $placeholder-size;
+    font-weight: $placeholder-weight;
+    color: $placeholder-color;
 }
 
 ::-moz-placeholder {
-	font-family: $ff;
-	font-size: $placeholder-size;
-	font-weight: $placeholder-weight;
-	color: $placeholder-color;
+    font-family: $ff;
+    font-size: $placeholder-size;
+    font-weight: $placeholder-weight;
+    color: $placeholder-color;
 }
 
 :-moz-placeholder {
-	font-family: $ff;
-	font-size: $placeholder-size;
-	font-weight: $placeholder-weight;
-	color: $placeholder-color;
+    font-family: $ff;
+    font-size: $placeholder-size;
+    font-weight: $placeholder-weight;
+    color: $placeholder-color;
 }
 
 :-ms-input-placeholder {
-	font-family: $ff;
-	font-size: $placeholder-size;
-	font-weight: $placeholder-weight;
-	color: $placeholder-color;
+    font-family: $ff;
+    font-size: $placeholder-size;
+    font-weight: $placeholder-weight;
+    color: $placeholder-color;
 }
 
 @media screen and (max-width: $screen-laptop) {
-	::-webkit-input-placeholder {font-size: $fs-laptop;}
-	::-moz-placeholder {font-size: $fs-laptop;}
-	:-moz-placeholder {font-size: $fs-laptop;}
-	:-ms-input-placeholder {font-size: $fs-laptop;}
+    ::-webkit-input-placeholder {font-size: $fs-laptop;}
+    ::-moz-placeholder {font-size: $fs-laptop;}
+    :-moz-placeholder {font-size: $fs-laptop;}
+    :-ms-input-placeholder {font-size: $fs-laptop;}
 }
 
 @media screen and (max-width: $screen-tablet) {
-	::-webkit-input-placeholder {font-size: $fs-tablet;}
-	::-moz-placeholder {font-size: $fs-tablet;}
-	:-moz-placeholder {font-size: $fs-tablet;}
-	:-ms-input-placeholder {font-size: $fs-tablet;}
+    ::-webkit-input-placeholder {font-size: $fs-tablet;}
+    ::-moz-placeholder {font-size: $fs-tablet;}
+    :-moz-placeholder {font-size: $fs-tablet;}
+    :-ms-input-placeholder {font-size: $fs-tablet;}
 }
 
 @media screen and (max-width: $screen-mobile) {
-	::-webkit-input-placeholder {font-size: $fs-mobile;}
-	::-moz-placeholder {font-size: $fs-mobile;}
-	:-moz-placeholder {font-size: $fs-mobile;}
-	:-ms-input-placeholder {font-size: $fs-mobile;}
+    ::-webkit-input-placeholder {font-size: $fs-mobile;}
+    ::-moz-placeholder {font-size: $fs-mobile;}
+    :-moz-placeholder {font-size: $fs-mobile;}
+    :-ms-input-placeholder {font-size: $fs-mobile;}
 }
 
 * {
-	-webkit-text-size-adjust: none;
-	box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    box-sizing: border-box;
 }
 
 *:focus,

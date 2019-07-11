@@ -1,191 +1,191 @@
 /* Главный */
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.eot') format('embedded-opentype');
-  font-weight: $thin;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Thin/#{$ff}-Thin.eot") format("embedded-opentype");
+    font-weight: $thin;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.eot') format('embedded-opentype');
-  font-weight: $thin;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ThinItalic/#{$ff}-ThinItalic.eot") format("embedded-opentype");
+    font-weight: $thin;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.eot') format('embedded-opentype');
-  font-weight: $extraLight;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLight/#{$ff}-ExtraLight.eot") format("embedded-opentype");
+    font-weight: $extraLight;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.eot') format('embedded-opentype');
-  font-weight: $extraLight;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraLightItalic/#{$ff}-ExtraLightItalic.eot") format("embedded-opentype");
+    font-weight: $extraLight;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.eot') format('embedded-opentype');
-  font-weight: $light;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Light/#{$ff}-Light.eot") format("embedded-opentype");
+    font-weight: $light;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.eot') format('embedded-opentype');
-  font-weight: $light;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-LightItalic/#{$ff}-LightItalic.eot") format("embedded-opentype");
+    font-weight: $light;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.eot') format('embedded-opentype');
-  font-weight: $fw-normal;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Regular/#{$ff}-Regular.eot") format("embedded-opentype");
+    font-weight: $fw-normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.eot') format('embedded-opentype');
-  font-weight: $fw-normal;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-RegularItalic/#{$ff}-RegularItalic.eot") format("embedded-opentype");
+    font-weight: $fw-normal;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.eot') format('embedded-opentype');
-  font-weight: $fw-medium;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Medium/#{$ff}-Medium.eot") format("embedded-opentype");
+    font-weight: $fw-medium;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.eot') format('embedded-opentype');
-  font-weight: $fw-medium;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-MediumItalic/#{$ff}-MediumItalic.eot") format("embedded-opentype");
+    font-weight: $fw-medium;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.eot') format('embedded-opentype');
-  font-weight: $semiBold;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-SemiBold/#{$ff}-SemiBold.eot") format("embedded-opentype");
+    font-weight: $semiBold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.eot') format('embedded-opentype');
-  font-weight: $semiBold;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-SemiBoldItalic/#{$ff}-SemiBoldItalic.eot") format("embedded-opentype");
+    font-weight: $semiBold;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.eot') format('embedded-opentype');
-  font-weight: $bold;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Bold/#{$ff}-Bold.eot") format("embedded-opentype");
+    font-weight: $bold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.eot') format('embedded-opentype');
-  font-weight: $bold;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-BoldItalic/#{$ff}-BoldItalic.eot") format("embedded-opentype");
+    font-weight: $bold;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.eot') format('embedded-opentype');
-  font-weight: $extraBold;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBold/#{$ff}-ExtraBold.eot") format("embedded-opentype");
+    font-weight: $extraBold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.eot') format('embedded-opentype');
-  font-weight: $extraBold;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-ExtraBoldItalic/#{$ff}-ExtraBoldItalic.eot") format("embedded-opentype");
+    font-weight: $extraBold;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.eot') format('embedded-opentype');
-  font-weight: $fw-black;
-  font-style: normal;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-Black/#{$ff}-Black.eot") format("embedded-opentype");
+    font-weight: $fw-black;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: $ff;
-  src: url('#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.woff2') format('woff2'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.eot') format('embedded-opentype');
-  font-weight: $fw-black;
-  font-style: italic;
+    font-family: $ff;
+    src: url("#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.woff") format("woff"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff}/#{$ff}-BlackItalic/#{$ff}-BlackItalic.eot") format("embedded-opentype");
+    font-weight: $fw-black;
+    font-style: italic;
 }
 
 /* Дополнительный */
 @font-face {
-  font-family: $ff-secondary;
-  src: url('#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.woff2') format('woff2'),
-       url('#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.woff') format('woff'),
-  	   url('#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.ttf') format('truetype'),
-  	   url('#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.eot') format('embedded-opentype');
-  font-weight: $bold;
-  font-style: normal;
+    font-family: $ff-secondary;
+    src: url("#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.woff2") format("woff2"),
+         url("#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.woff") format("woff"),
+         url("#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.ttf") format("truetype"),
+         url("#{$fontPath}/#{$ff-secondary}/#{$ff-secondary}.eot") format("embedded-opentype");
+    font-weight: $bold;
+    font-style: normal;
 }
